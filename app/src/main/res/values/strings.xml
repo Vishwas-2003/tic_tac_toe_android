@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="intro_str1">T</string>
+    <string name="intro_str2">ic</string>
+    <string name="intro_str3">ac</string>
+    <string name="intro_str4">oe</string>
+    <string name="wel">Welcome</string>
+
+    <string name="plr_1_c">Player 1:X</string>
+    <string name="plr_2_c">Player 2:O</string>
+    <string name="plr_1">Player 1</string>
+    <string name="plr_2">Player 2</string>
+    <string name="plr_hint">Enter Name</string>
+    <string name="ent">Enter</string>
+    <string name="title_activity_game_play">gamePlay</string>
+
+
+    <string name="first_fragment_label">home</string>
+
+    <string name="second_fragment_label">home</string>
+
+
+    <string name="scr">Score</string>
+    <string name="developed">Developed By Vishwas</string>
+
+
+
+</resources>
