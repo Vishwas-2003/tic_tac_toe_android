@@ -6,6 +6,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.ColorFilter;
@@ -27,6 +28,7 @@ public class GameIntro extends AppCompatActivity {
         catch(Exception e){}
 
         setContentView(R.layout.activity_game_intro);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LOCKED);
 
         Intent goHome=new Intent(GameIntro.this,MainActivity.class);
 
